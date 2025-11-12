@@ -1,0 +1,19 @@
+{
+  "validUser": {
+    "username": "student",
+    "password": "Password123"
+  },
+  "invalidUser": {
+    "username": "student",
+    "password": "incorrectPassword"
+  },
+  "expectedMessages":{
+    "sucessMessage": "Congratulations student. You successfully logged in!",
+    "errorMessageUser": "Your password is invalid!"
+
+  },
+  "urls":{
+    "loginPage": "https://practicetestautomation.com/practice-test-login/",
+    "loginSuccess": "https://practicetestautomation.com/logged-in-successfully/"
+  }
+}
